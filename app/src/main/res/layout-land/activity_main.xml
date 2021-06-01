@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
-        android:background="@drawable/calculator"
+        android:background="@android:color/background_dark"
         android:orientation="horizontal">
 
     <LinearLayout
@@ -175,13 +175,13 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintVertical_bias="0.443" android:textSize="40sp" android:textColor="#090000"
+            app:layout_constraintVertical_bias="0.443" android:textSize="40sp" android:textColor="#FAF6F6"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"/>
     <TextView
             android:layout_width="430dp"
             android:layout_height="98dp" android:id="@+id/tv_result"
             app:layout_constraintTop_toBottomOf="@+id/tv_first" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintVertical_bias="0.0" android:textColor="#000000" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.0" android:textColor="#FFE040" android:textSize="24sp"
             app:layout_constraintHorizontal_bias="0.023" app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
