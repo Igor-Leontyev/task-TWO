@@ -19,4 +19,6 @@
     <string name="_5">5</string>
     <string name="_2">2</string>
     <string name="_0">0</string>
+    <string name="exit">EXIT</string>
+    <string name="usaly">Уже есть знак /!</string>
 </resources>
